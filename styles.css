@@ -228,6 +228,7 @@ a.social:hover {
 .header1 h1 {
   text-align: left;
   margin-top: 50px;
+  margin-left: 10px;
 }
 .header1 {
   display: flex;
