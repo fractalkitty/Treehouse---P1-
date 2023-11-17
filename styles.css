@@ -225,15 +225,25 @@ a.social:hover {
   }
 }
 
+.resume-body{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-top: 0px;
+}
+
 .header1 h1 {
-  text-align: left;
-  margin-top: 50px;
-  margin-left: 10px;
+  text-align: center;
 }
 .header1 {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+}
+
+.p1 {
+  margin-top: 40px;
+  text-align: center;
 }
 .container {
   width: 80%;
@@ -276,6 +286,7 @@ a.social:hover {
   display: flex;
   width: 100%;
   margin-top: 0px;
+  flex-direction: row;
 }
 .resume .sidebar {
   margin: 2px;
@@ -285,10 +296,20 @@ a.social:hover {
   width: 30%;
   padding: 20px;
 }
+@media screen and (max-width: 768px) {
+  .resume {
+    flex-direction: column; /* Stack them vertically */
+  }
+
+  .resume .sidebar {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
 .resume .main-content {
   width: 100%;
   display: flex;
   padding-left: 20px;
+  flex-grow: 1;
 }
 
 .resume .sidebar h2 {
@@ -397,10 +418,7 @@ a:hover {
   color: #333;
 }
 
-.p1 {
-  margin-top: 120px;
-  margin-left: 50px;
-}
+
 
 body.soh {
   margin: 0;
@@ -438,3 +456,4 @@ body.soh {
     scroll-behavior: smooth;
     
 }
+
