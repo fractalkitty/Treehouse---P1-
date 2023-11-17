@@ -428,14 +428,14 @@ body.soh {
   display: flex;
   /* align-items: center; */
   justify-content: center;
-  background: #3d6d73;
+  background: black;
 }
 .wrapper {
   width: 250px;
 }
 .sketch {
-  margin: 0;
-  padding: 0;
+  margin-top: 100px;
+  padding: 20;
   height: 100vh;
   overflow: hidden;
   display: flex;

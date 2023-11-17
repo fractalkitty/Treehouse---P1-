@@ -15,7 +15,8 @@ function setup(){
   secondRadius = c/13;
 }
 function draw(){
-  translate(width/2,height/2);
+  translate(width / 2, height / 2);
+  scale(0.9);
   if (bToggle){
     if(dToggle){
     background(20);
